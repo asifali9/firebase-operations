@@ -39,7 +39,7 @@ public class LogInActivity extends AppCompatActivity {
                         else
                             Log.d("test", "onComplete: "+task.getException().toString());
                     }
-                });
+                });//testing for git
             }
         });
     }
